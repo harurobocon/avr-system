@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+# 実測の生データは残さない。結論は FINDINGS.md に集約する
+poc/results/*.json
+poc/results/rec-*/
+poc/results/tee/
+poc/results/*.avi
+poc/results/*.mkv
+recordings/
